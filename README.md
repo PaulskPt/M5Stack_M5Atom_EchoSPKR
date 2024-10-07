@@ -12,7 +12,7 @@ For the M5 Atom Echo M5Stack has examples as: EchoRest, PlayMusic and RecordPlay
 intended for the M5 EchoSPK device.
 I copied the files into a new Arduino IDE sketch project. I renamed the C++ files more suitable for the M5 Atom Echo device.
 I ported the contents of the C++ files to be used with the M5 Atom Echo. 
-The Arduino sketch example ```PlayMusic``` was suitable for me to modify for use with the ported ATOMECHOSPKR class.
+The Arduino sketch example ```PlayMusic``` was suitable for me to modify for use with the created ATOMECHOSPKR class.
 I also added functionality to use the builtin RGB Led of the Atom Echo. 
 
 Hardware used:

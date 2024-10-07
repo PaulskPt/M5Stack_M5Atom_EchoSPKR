@@ -1,4 +1,4 @@
-M5Stack M5Echo_SPKR
+M5Stack M5Atom Echo new C++ class ATOMECHOSPKR and Arduino beep test sketch.
 
 Important credit:
 
@@ -8,8 +8,9 @@ for certain limitation that the Arduino IDE has with the standard C++ specificat
 There were no delays. The answers were instantaneous! Thank you CoPilot. Thank you Microsoft for this exciting new tool!
 
 The reason for this project is that M5Stack doesn't have available, as far as I know, a C++ class for the Atom Echo to produce simple beeps.
-M5Stack has examples as: EchoRest, PlayMusic and RecordPlay. In the available Github repositories from M5Stack I found a usable C++ class ATOMSPK,
-for the M5Stack Atom SPK device. I copied the files into a new Arduino IDE sketch project. I renamed the C++ files more suitable for the M5 Atom Echo device.
+For the M5 Atom Echo M5Stack has examples as: EchoRest, PlayMusic and RecordPlay. In the available Github repositories from M5Stack I found a usable C++ class ATOMSPK,
+intended for the M5 EchoSPK device.
+I copied the files into a new Arduino IDE sketch project. I renamed the C++ files more suitable for the M5 Atom Echo device.
 I ported the contents of the C++ files to be used with the M5 Atom Echo. 
 The Arduino sketch example ```PlayMusic``` was suitable for me to modify for use with the ported ATOMECHOSPKR class.
 I also added functionality to use the builtin RGB Led of the Atom Echo. 

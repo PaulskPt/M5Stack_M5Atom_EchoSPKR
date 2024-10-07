@@ -22,7 +22,7 @@ Hardware used:
 
 Sound:
 
-After applying power to the M5 Echo Atom device, the sketch sequentially will wait for a button press.
+After applying power to the M5 Echo Atom device, the sketch will wait for a button press.
 Upon pressing the button on top of the Atom Echo, a double tone sound will be produced and the RGB Led wil be set to GREEN at the start of the beeps. After the beeps have finished, the RGB Led will be set to RED.
 
 Docs:
